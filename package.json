@@ -1,0 +1,20 @@
+{
+  "name": "orion-notify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build-all": "electron-packager . OrionNotify --all --out=./build --version 0.1  --overwrite --icon=./assets/icon/mac/icon.icns",
+    "build-osx": "electron-packager . OrionNotify --platform=darwin --out=./build --version 0.1  --overwrite --icon=./assets/icon/mac/icon.icns",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.7.9",
+    "electron-packager": "^10.1.0"
+  },
+  "dependencies": {}
+}
